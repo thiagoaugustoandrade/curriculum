@@ -1,0 +1,83 @@
+*{
+  
+}
+
+
+
+:root{
+    --cor0:#A0A5E1;
+    --cor1: #5A65DB;
+    --cor3: #262A5C;
+    --cor4: black;
+    --cor5: white;
+
+    --fonte-destaque: 'Hubballi', cursive;
+    --fonte-subTitulo: 'Montserrat', sans-serif;
+}
+/*----------HEADER ---------------------*/
+div#header{
+    background-color: var(--cor1);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    
+    font-family: 'Hubballi', cursive;
+}
+
+#nameAndTitle{
+    background-color: var(--cor5);
+    width: 500px;
+    margin: 0px auto;
+}
+
+#nameAndTitle h1, h2{
+    margin: 0px;
+}
+
+h1, h2, h3{
+    text-transform: uppercase;
+}
+/*-----------------------------------------------------*/
+
+ul#contact{
+    list-style-type: none;
+}
+
+ul#contact i{
+    width: 30px;
+    color: var(--cor1);
+}
+
+/*-----------------------------------------------------*/
+
+div#container{
+    display: grid;
+    grid-template-columns: 40% auto;
+    grid-column-gap: 20px;
+}
+
+div#sideBar, div#content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+div.card h3{
+    font-family: var(--fonte-destaque);
+    
+}
+
+div.card p, ul{
+    font-family: var(--fonte-subTitulo);
+}
+
+.card{
+    border: 1px solid #5A65DB;
+    border-radius: 15px;
+    width: auto;
+    height: auto;
+    padding: 20px;
+    
+}
+
+
